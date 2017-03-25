@@ -18,6 +18,7 @@
 		E95EF1DF1E86280F00ED08DC /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1DE1E86280F00ED08DC /* PokeCell.swift */; };
 		E95EF1E11E862DF300ED08DC /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1E01E862DF300ED08DC /* csv.swift */; };
 		E95EF1E41E8634BF00ED08DC /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E95EF1E31E8634BF00ED08DC /* music.mp3 */; };
+		E95EF1E61E86460900ED08DC /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1E51E86460900ED08DC /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E95EF1DE1E86280F00ED08DC /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		E95EF1E01E862DF300ED08DC /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		E95EF1E31E8634BF00ED08DC /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		E95EF1E51E86460900ED08DC /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				E95EF1C21E861F7300ED08DC /* AppDelegate.swift */,
 				E95EF1C41E861F7300ED08DC /* ViewController.swift */,
+				E95EF1E51E86460900ED08DC /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				E95EF1DF1E86280F00ED08DC /* PokeCell.swift in Sources */,
 				E95EF1C51E861F7300ED08DC /* ViewController.swift in Sources */,
 				E95EF1C31E861F7300ED08DC /* AppDelegate.swift in Sources */,
+				E95EF1E61E86460900ED08DC /* PokemonDetailVC.swift in Sources */,
 				E95EF1D81E86242100ED08DC /* Pokemon.swift in Sources */,
 				E95EF1E11E862DF300ED08DC /* csv.swift in Sources */,
 			);
