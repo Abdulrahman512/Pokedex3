@@ -20,6 +20,7 @@
 		E95EF1E11E862DF300ED08DC /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1E01E862DF300ED08DC /* csv.swift */; };
 		E95EF1E41E8634BF00ED08DC /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E95EF1E31E8634BF00ED08DC /* music.mp3 */; };
 		E95EF1E61E86460900ED08DC /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1E51E86460900ED08DC /* PokemonDetailVC.swift */; };
+		E95EF1E81E865A7800ED08DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EF1E71E865A7800ED08DC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E95EF1E01E862DF300ED08DC /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		E95EF1E31E8634BF00ED08DC /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		E95EF1E51E86460900ED08DC /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		E95EF1E71E865A7800ED08DC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EDD0D737947D238D16BB0F48 /* Pods-Pokedex3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex3/Pods-Pokedex3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				E95EF1E01E862DF300ED08DC /* csv.swift */,
+				E95EF1E71E865A7800ED08DC /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				E95EF1C51E861F7300ED08DC /* ViewController.swift in Sources */,
 				E95EF1C31E861F7300ED08DC /* AppDelegate.swift in Sources */,
 				E95EF1E61E86460900ED08DC /* PokemonDetailVC.swift in Sources */,
+				E95EF1E81E865A7800ED08DC /* Constants.swift in Sources */,
 				E95EF1D81E86242100ED08DC /* Pokemon.swift in Sources */,
 				E95EF1E11E862DF300ED08DC /* csv.swift in Sources */,
 			);
@@ -447,6 +451,7 @@
 				E95EF1D31E861F7300ED08DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
