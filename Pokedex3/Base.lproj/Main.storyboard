@@ -39,12 +39,25 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8T-xg-igA">
+                                        <rect key="frame" x="341" y="31" width="26" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="26" id="gVb-pK-EgD"/>
+                                            <constraint firstAttribute="height" constant="26" id="oN0-OS-XED"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gff-Dh-Eaf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="ccs-Q8-41l" firstAttribute="centerX" secondItem="2tu-Mk-QWd" secondAttribute="centerX" id="SEC-u8-c7R"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y8T-xg-igA" secondAttribute="bottom" constant="8" id="ddk-wR-9Dl"/>
                                     <constraint firstAttribute="height" constant="65" id="ggD-tc-Pis"/>
                                     <constraint firstAttribute="bottom" secondItem="ccs-Q8-41l" secondAttribute="bottom" constant="8" id="hXi-t0-BXd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y8T-xg-igA" secondAttribute="trailing" constant="8" id="ngd-vW-OLI"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="SLA-So-azt">
@@ -140,5 +153,6 @@
     <resources>
         <image name="4" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
